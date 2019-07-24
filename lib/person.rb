@@ -6,6 +6,6 @@ class Person
     def initialize(attributes)
     
         attributes.map {|key, value| self.send(("#{key}="), value)}
-    
+
     end
 end
